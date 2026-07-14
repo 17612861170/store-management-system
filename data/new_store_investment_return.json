@@ -1,7 +1,7 @@
 {
   "sourceName": "新店投资回报预算表",
   "sourceFile": "/Users/zhx/Desktop/目标+账单/新店投资回报预算表.xlsx",
-  "syncedAt": "2026-07-03 00:14:53",
+  "syncedAt": "2026-07-14 00:00:00",
   "records": [
     {
       "id": "zhengzhou-zhiyou-zhongyuanwanda",
@@ -2389,6 +2389,460 @@
         "prepaidCost": 61000.0,
         "depositCost": 70000.0,
         "totalInvestment": 274080.0
+      }
+    },
+    {
+      "id": "shangqiu-children-wuyueguangchang",
+      "sheetName": "商丘吾悦广场基础信息（儿童密室）",
+      "brandName": "儿童密室",
+      "storeName": "熊猫密室·探索乐园",
+      "mallName": "商丘吾悦广场",
+      "location": "1号门三楼中厅+扶梯口",
+      "standaloneStore": true,
+      "displayName": "商丘吾悦广场",
+      "matchKeywords": [
+        "商丘",
+        "吾悦",
+        "商丘吾悦广场",
+        "商丘吾悦市中心"
+      ],
+      "rentArea": 190.0,
+      "usableArea": 181.0,
+      "themeArea": 96.5,
+      "publicArea": 78.0,
+      "themeCount": 21.0,
+      "avgPeoplePerSession": 1.4,
+      "maxDailySessions": 400.0,
+      "maxDailyVisitors": 560.0,
+      "avgSpend": 68.0,
+      "avgSpendText": "非会员68元\n会员充值：300/500/800元",
+      "maxDailyRevenue": 20000.0,
+      "staffConfig": 3.0,
+      "staffConfigText": "3个",
+      "totalInvestment": 460730.0,
+      "zValue": 6892.0,
+      "annualRevenue": 1238147.8,
+      "peakMonthRevenue": 181191.0,
+      "lowMonthRevenue": 62786.0,
+      "grossMarginRate": 0.6,
+      "annualFixedCost": 360400.0,
+      "annualProfit": 382488.68,
+      "netMarginRate": 0.30892004977111776,
+      "paybackMonths": 15.0,
+      "monthlyBudget": {
+        "01": {
+          "targetRevenue": 83462.12,
+          "fixedCost": 32200,
+          "grossMarginRate": 0.6,
+          "profit": 17877.272,
+          "coefficient": 12.11
+        },
+        "02": {
+          "targetRevenue": 181190.68,
+          "fixedCost": 32200,
+          "grossMarginRate": 0.6,
+          "profit": 76514.408,
+          "coefficient": 26.29
+        },
+        "03": {
+          "targetRevenue": 72710.6,
+          "fixedCost": 28450,
+          "grossMarginRate": 0.6,
+          "profit": 15176.36,
+          "coefficient": 10.55
+        },
+        "04": {
+          "targetRevenue": 68713.24,
+          "fixedCost": 28450,
+          "grossMarginRate": 0.6,
+          "profit": 12777.944,
+          "coefficient": 9.97
+        },
+        "05": {
+          "targetRevenue": 108893.6,
+          "fixedCost": 28450,
+          "grossMarginRate": 0.6,
+          "profit": 36886.16,
+          "coefficient": 15.8
+        },
+        "06": {
+          "targetRevenue": 101105.64,
+          "fixedCost": 30200,
+          "grossMarginRate": 0.6,
+          "profit": 30463.384,
+          "coefficient": 22.2
+        },
+        "07": {
+          "targetRevenue": 146523.92,
+          "fixedCost": 30200,
+          "grossMarginRate": 0.6,
+          "profit": 57714.352,
+          "coefficient": 21.26
+        },
+        "08": {
+          "targetRevenue": 156448.4,
+          "fixedCost": 31450,
+          "grossMarginRate": 0.6,
+          "profit": 62419.04,
+          "coefficient": 22.7
+        },
+        "09": {
+          "targetRevenue": 62786.12,
+          "fixedCost": 29700,
+          "grossMarginRate": 0.6,
+          "profit": 7971.672,
+          "coefficient": 9.11
+        },
+        "10": {
+          "targetRevenue": 118473.48,
+          "fixedCost": 29700,
+          "grossMarginRate": 0.6,
+          "profit": 41384.088,
+          "coefficient": 17.19
+        },
+        "11": {
+          "targetRevenue": 72021.4,
+          "fixedCost": 29700,
+          "grossMarginRate": 0.6,
+          "profit": 13512.84,
+          "coefficient": 10.45
+        },
+        "12": {
+          "targetRevenue": 65818.6,
+          "fixedCost": 29700,
+          "grossMarginRate": 0.6,
+          "profit": 9791.16,
+          "coefficient": 9.55
+        }
+      },
+      "monthlyCoefficientTotal": 187.18,
+      "leftDetails": {
+        "项目": {
+          "value": "数据",
+          "detail": "详情"
+        },
+        "门店名称": {
+          "value": "熊猫密室·探索乐园",
+          "detail": "/"
+        },
+        "所在商场/地段": {
+          "value": "商丘吾悦市中心",
+          "detail": "/"
+        },
+        "具体位置": {
+          "value": "1号门三楼中厅+扶梯口",
+          "detail": "/"
+        },
+        "租赁面积": {
+          "value": "190m²",
+          "detail": "/房租16200\n平方数190平\n主题数20个\n具体位置1号门三楼中厅+扶梯口"
+        },
+        "可用面积": {
+          "value": "181m²",
+          "detail": "/"
+        },
+        "主题使用面积": {
+          "value": "96.5m²",
+          "detail": "20个主题实际使用面积"
+        },
+        "公区面积": {
+          "value": "78m²",
+          "detail": "走廊+大厅+吧台+仓库"
+        },
+        "主题数量": {
+          "value": "21",
+          "detail": "20个5m²单主题"
+        },
+        "单场平均人数": {
+          "value": "1.4人",
+          "detail": "按照类似店型历史场均人数"
+        },
+        "单日最多场次": {
+          "value": "400场",
+          "detail": "当天20个主题的开场上限"
+        },
+        "单日最多承接人数": {
+          "value": "560人",
+          "detail": "当天20个主题的接待人数上限"
+        },
+        "人均消费": {
+          "value": "非会员68元\n会员充值：300/500/800元",
+          "detail": "按照门店主题定价计算"
+        },
+        "单日最高营收": {
+          "value": "20000",
+          "detail": "/"
+        },
+        "员工数量": {
+          "value": "3个",
+          "detail": "1店长+2销售"
+        },
+        "开店总投入": {
+          "value": "460730",
+          "detail": "门店开业前除去房租押金所有产生的费用"
+        },
+        "Z值": {
+          "value": "6892",
+          "detail": "通过门店线下客流测算出周六营收（Z值）"
+        },
+        "年营业额": {
+          "value": "1238148",
+          "detail": "通过Z值✖全年系数得出全年营收"
+        },
+        "旺季月营收": {
+          "value": "181191",
+          "detail": "通过Z值✖旺季月系数得出旺季月营收"
+        },
+        "淡季月营收": {
+          "value": "62786",
+          "detail": "通过Z值✖淡季月系数得出淡季月营收"
+        },
+        "毛利率": {
+          "value": "60%",
+          "detail": "/"
+        },
+        "年-固定成本": {
+          "value": "360400",
+          "detail": "全年底薪+租金+社保+保险"
+        },
+        "年利润": {
+          "value": "382489",
+          "detail": "（年营收✖毛利率）-全年固定成本"
+        },
+        "净利率": {
+          "value": "30.89%",
+          "detail": "全年利润÷年营业额"
+        },
+        "回本周期": {
+          "value": "15个月",
+          "detail": "/"
+        },
+        "盈亏平衡": {
+          "value": "达标",
+          "detail": "达标"
+        }
+      },
+      "engineeringItems": [
+        {
+          "category": "基础装修",
+          "item": "门头",
+          "unitPrice": 13500.0,
+          "unit": "个",
+          "quantity": 1.0,
+          "cost": 13500.0,
+          "detail": "门头制作、发光字/灯箱、品牌形象安装"
+        },
+        {
+          "category": "基础装修",
+          "item": "顶地工程",
+          "unitPrice": 260.0,
+          "unit": "平方",
+          "quantity": 190.0,
+          "cost": 49400.0,
+          "detail": "吊顶、地面处理、墙面基础处理、涂料/装饰面层"
+        },
+        {
+          "category": "基础装修",
+          "item": "电路及弱电工程",
+          "unitPrice": 290.0,
+          "unit": "平方",
+          "quantity": 190.0,
+          "cost": 55100.0,
+          "detail": "强电布线、配电箱/开关、照明线路、弱电布线、网络布线、监控线路、对讲/控场基础布线"
+        },
+        {
+          "category": "基础装修",
+          "item": "消防工程",
+          "unitPrice": 1000.0,
+          "unit": "项",
+          "quantity": 1.0,
+          "cost": 1000.0,
+          "detail": "烟感、喷淋改造、应急照明、安全出口指示、消防整改、消防验收相关处理"
+        },
+        {
+          "category": "基础装修",
+          "item": "大厅及公区",
+          "unitPrice": 7000.0,
+          "unit": "个",
+          "quantity": 1.0,
+          "cost": 7000.0,
+          "detail": "前台、候场区、公共区域装饰、公区家具或基础陈设"
+        },
+        {
+          "category": "基础装修",
+          "item": "设备现场安装调试",
+          "unitPrice": 8000.0,
+          "unit": "项",
+          "quantity": 1.0,
+          "cost": 8000.0,
+          "detail": "现场安装人工、联调测试、设备固定与收尾"
+        },
+        {
+          "category": "开业筹备",
+          "item": "运营物资",
+          "unitPrice": 5500.0,
+          "unit": "批次",
+          "quantity": 1.0,
+          "cost": 5500.0,
+          "detail": "日常清洁工具、前台用品、顾客储物用品、基础耗材、开业保洁"
+        },
+        {
+          "category": "开业筹备",
+          "item": "软件及平台上线费用",
+          "unitPrice": 2880.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 2880.0,
+          "detail": "网络开通、收银/预约系统、美团/大众点评上线、地图定位/线上基础设置"
+        },
+        {
+          "category": "开业筹备",
+          "item": "开业宣传",
+          "unitPrice": 3000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 3000.0,
+          "detail": "开业活动物料、达人探店、平台推广、基础宣传费用"
+        },
+        {
+          "category": "开业筹备",
+          "item": "办公设备、电器",
+          "unitPrice": 7000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 7000.0,
+          "detail": "前台电脑、打印机、对讲设备、小型电器、办公基础设备"
+        },
+        {
+          "category": "开业筹备",
+          "item": "证照及报批费用",
+          "unitPrice": 500.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 500.0,
+          "detail": "营业执照相关办理、物业报批、消防报审/报验、其他开店证照费用"
+        },
+        {
+          "category": "开业筹备",
+          "item": "培训及试营业费用",
+          "unitPrice": 8000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 8000.0,
+          "detail": "员工培训、流程测试、试营业成本、内测试玩与调整"
+        },
+        {
+          "category": "其他开支",
+          "item": "围挡搭建",
+          "unitPrice": 110.0,
+          "unit": "平方",
+          "quantity": 35.0,
+          "cost": 3850.0,
+          "detail": "施工围挡、围挡画面制作"
+        },
+        {
+          "category": "其他开支",
+          "item": "运输和差旅",
+          "unitPrice": 15000.0,
+          "unit": "项",
+          "quantity": 1.0,
+          "cost": 15000.0,
+          "detail": "物料运输、外地安装差旅、运输杂费"
+        },
+        {
+          "category": "其他开支",
+          "item": "预备金 / 不可预见费",
+          "unitPrice": 5000.0,
+          "unit": "项",
+          "quantity": 1.0,
+          "cost": 5000.0,
+          "detail": "施工增项、临时调整、漏项补充、现场整改"
+        },
+        {
+          "category": "主题设备",
+          "item": "主题设备及程序",
+          "unitPrice": 9000.0,
+          "unit": "个",
+          "quantity": 21.0,
+          "cost": 189000.0,
+          "detail": "机关设备、灯光音效控制、电子控制系统、主题程序、互动装置"
+        },
+        {
+          "category": "主题设备",
+          "item": "隔断墙体及场景结构",
+          "unitPrice": 4000.0,
+          "unit": "个",
+          "quantity": 21.0,
+          "cost": 84000.0,
+          "detail": "主题电线，隔断墙体结构，油漆，美术做旧，壁纸，壁画"
+        },
+        {
+          "category": "图纸设计",
+          "item": "全套施工图纸",
+          "unitPrice": 3000.0,
+          "unit": "套",
+          "quantity": 1.0,
+          "cost": 3000.0,
+          "detail": "平面图、施工图、电路图、弱电图、消防配合图、主题落地图纸"
+        }
+      ],
+      "depositItems": [
+        {
+          "category": "预缴费用",
+          "item": "房租（3个月）",
+          "unitPrice": 20000.0,
+          "unit": "月",
+          "quantity": 3.0,
+          "cost": 60000.0,
+          "detail": ""
+        },
+        {
+          "category": "预缴费用",
+          "item": "水电",
+          "unitPrice": 1000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 1000.0,
+          "detail": ""
+        },
+        {
+          "category": "押金费用",
+          "item": "房租押金（2个月）",
+          "unitPrice": 20000.0,
+          "unit": "月",
+          "quantity": 2.0,
+          "cost": 40000.0,
+          "detail": ""
+        },
+        {
+          "category": "押金费用",
+          "item": "装修押金",
+          "unitPrice": 10000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 10000.0,
+          "detail": "装修完成，商场验收通过以后可退"
+        },
+        {
+          "category": "押金费用",
+          "item": "运营押金",
+          "unitPrice": 20000.0,
+          "unit": "次",
+          "quantity": 1.0,
+          "cost": 20000.0,
+          "detail": "店铺最终撤场以后可退"
+        }
+      ],
+      "engineeringSummary": {
+        "decorationCost": 134000.0,
+        "equipmentCost": 273000.0,
+        "fireCost": 1000.0,
+        "designCost": 3000.0,
+        "openingMiscCost": 50730.0,
+        "rentDeposit": 131000.0,
+        "prepaidCost": 61000.0,
+        "depositCost": 70000.0,
+        "totalInvestment": 460730.0
       }
     }
   ]

@@ -1,7 +1,7 @@
 window.OPENING_EXECUTION_TEMPLATE = {
   "sourceName": "开荒流程表",
   "sourceFile": "/Users/zhx/Desktop/zhe.md",
-  "syncedAt": "2026-07-02 19:40:43",
+  "syncedAt": "2026-07-03 逐条开荒时间二次校正",
   "sourceTaskCount": 102,
   "sourceGroupCount": 20,
   "stages": [
@@ -126,7 +126,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天内"
     },
     {
       "id": "op002",
@@ -137,7 +139,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天左右"
     },
     {
       "id": "op003",
@@ -148,7 +152,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op004",
@@ -159,7 +165,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op005",
@@ -170,7 +178,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op006",
@@ -181,7 +191,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op007",
@@ -192,7 +204,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天"
     },
     {
       "id": "op008",
@@ -203,7 +217,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天"
     },
     {
       "id": "op009",
@@ -214,7 +230,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op010",
@@ -225,7 +243,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op011",
@@ -236,7 +256,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天"
     },
     {
       "id": "op012",
@@ -247,7 +269,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "闫鑫佳",
       "contact": "闫鑫佳",
       "note": "",
-      "priority": "低"
+      "priority": "低",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op013",
@@ -258,7 +282,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 王涛",
       "contact": "城市经理 / 王涛",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op014",
@@ -269,7 +295,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op015",
@@ -280,7 +308,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 1,
+      "scheduleLabel": "开荒第1天"
     },
     {
       "id": "op016",
@@ -291,7 +321,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 12,
+      "scheduleLabel": "开荒第12天"
     },
     {
       "id": "op017",
@@ -302,7 +334,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天"
     },
     {
       "id": "op018",
@@ -313,7 +347,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 3,
+      "scheduleLabel": "开荒第3天"
     },
     {
       "id": "op019",
@@ -324,7 +360,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理",
       "contact": "城市经理",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op020",
@@ -335,7 +373,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理",
       "contact": "城市经理",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op021",
@@ -346,7 +386,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "维修人员",
       "contact": "维修人员",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op022",
@@ -357,7 +399,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 大成",
       "contact": "城市经理 / 大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op023",
@@ -368,7 +412,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 大成",
       "contact": "城市经理 / 大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op024",
@@ -379,7 +425,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 大成",
       "contact": "城市经理 / 大成",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op025",
@@ -390,7 +438,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 大成",
       "contact": "城市经理 / 大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op026",
@@ -401,7 +451,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "城市经理 / 大成",
       "contact": "城市经理 / 大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op027",
@@ -412,7 +464,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "皮蛋",
       "contact": "皮蛋",
       "note": "",
-      "priority": "低"
+      "priority": "低",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op028",
@@ -423,7 +477,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "皮蛋",
       "contact": "皮蛋",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op029",
@@ -434,7 +490,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "皮蛋",
       "contact": "皮蛋",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op030",
@@ -445,7 +503,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op031",
@@ -456,7 +516,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op032",
@@ -467,7 +529,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op033",
@@ -478,7 +542,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op034",
@@ -489,7 +555,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "低"
+      "priority": "低",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op035",
@@ -500,7 +568,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大成",
       "contact": "大成",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 10,
+      "scheduleLabel": "开荒第10天"
     },
     {
       "id": "op036",
@@ -511,7 +581,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op037",
@@ -522,7 +594,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op038",
@@ -533,7 +607,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 18,
+      "scheduleLabel": "开荒第18天"
     },
     {
       "id": "op039",
@@ -544,7 +620,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op040",
@@ -555,7 +633,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op041",
@@ -566,7 +646,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op042",
@@ -577,7 +659,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op043",
@@ -588,7 +672,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op044",
@@ -599,7 +685,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op045",
@@ -610,7 +698,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op046",
@@ -621,7 +711,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op047",
@@ -632,7 +724,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op048",
@@ -643,7 +737,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "运营部",
       "contact": "运营部",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op049",
@@ -654,7 +750,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op050",
@@ -665,7 +763,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 16,
+      "scheduleLabel": "开荒第16天"
     },
     {
       "id": "op051",
@@ -676,7 +776,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op052",
@@ -687,7 +789,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 18,
+      "scheduleLabel": "开荒第18天"
     },
     {
       "id": "op053",
@@ -698,7 +802,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op054",
@@ -709,7 +815,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op055",
@@ -720,7 +828,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 6,
+      "scheduleLabel": "开荒第6天"
     },
     {
       "id": "op056",
@@ -731,7 +841,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op057",
@@ -742,7 +854,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "低"
+      "priority": "低",
+      "openingDay": 16,
+      "scheduleLabel": "开荒第16天"
     },
     {
       "id": "op058",
@@ -753,7 +867,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "五一 / 肖肖 / 杨小婷",
       "contact": "五一 / 肖肖 / 杨小婷",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op059",
@@ -764,7 +880,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op060",
@@ -775,7 +893,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op061",
@@ -786,7 +906,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 22,
+      "scheduleLabel": "开业后第2天内"
     },
     {
       "id": "op062",
@@ -797,7 +919,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 10,
+      "scheduleLabel": "开荒第10天"
     },
     {
       "id": "op063",
@@ -808,7 +932,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 10,
+      "scheduleLabel": "开荒第10天"
     },
     {
       "id": "op064",
@@ -819,7 +945,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op065",
@@ -830,7 +958,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op066",
@@ -841,7 +971,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 7,
+      "scheduleLabel": "开荒第7天"
     },
     {
       "id": "op067",
@@ -852,7 +984,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op068",
@@ -863,7 +997,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op069",
@@ -874,7 +1010,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "大头 / 小玉",
       "contact": "大头 / 小玉",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 2,
+      "scheduleLabel": "开荒第2天"
     },
     {
       "id": "op070",
@@ -885,7 +1023,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 1,
+      "scheduleLabel": "开荒第1天"
     },
     {
       "id": "op071",
@@ -896,7 +1036,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op072",
@@ -907,7 +1049,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op073",
@@ -918,7 +1062,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 1,
+      "scheduleLabel": "开荒第1天"
     },
     {
       "id": "op074",
@@ -929,7 +1075,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 1,
+      "scheduleLabel": "开荒第1天"
     },
     {
       "id": "op075",
@@ -940,7 +1088,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后每日"
     },
     {
       "id": "op075b",
@@ -951,7 +1101,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "待定",
       "contact": "待定",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 21,
+      "scheduleLabel": "开业后第1天"
     },
     {
       "id": "op076",
@@ -962,7 +1114,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op077",
@@ -973,7 +1127,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op078",
@@ -984,7 +1140,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "无",
       "contact": "无",
       "note": "",
-      "priority": "中"
+      "priority": "中",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op079",
@@ -995,7 +1153,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "王涛",
       "contact": "王涛",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 10,
+      "scheduleLabel": "开荒第10天"
     },
     {
       "id": "op080",
@@ -1006,7 +1166,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "王涛",
       "contact": "王涛",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 11,
+      "scheduleLabel": "开荒第11天"
     },
     {
       "id": "op081",
@@ -1017,7 +1179,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op082",
@@ -1028,7 +1192,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op083",
@@ -1039,7 +1205,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op084",
@@ -1050,7 +1218,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op085",
@@ -1061,7 +1231,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op086",
@@ -1072,7 +1244,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op087",
@@ -1083,7 +1257,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op088",
@@ -1094,7 +1270,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op089",
@@ -1105,7 +1283,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "小玉 / 多多",
       "contact": "小玉 / 多多",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 14,
+      "scheduleLabel": "开荒第14天"
     },
     {
       "id": "op090",
@@ -1116,7 +1296,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op091",
@@ -1127,7 +1309,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 20,
+      "scheduleLabel": "开荒第20天"
     },
     {
       "id": "op092",
@@ -1138,7 +1322,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op093",
@@ -1149,7 +1335,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op094",
@@ -1160,7 +1348,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op095",
@@ -1171,7 +1361,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op096",
@@ -1182,7 +1374,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op097",
@@ -1193,7 +1387,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op098",
@@ -1204,7 +1400,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op099",
@@ -1215,7 +1413,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 18,
+      "scheduleLabel": "开荒第18天"
     },
     {
       "id": "op100",
@@ -1226,7 +1426,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     },
     {
       "id": "op101",
@@ -1237,7 +1439,9 @@ window.OPENING_EXECUTION_TEMPLATE = {
       "owner": "刘宗辉 / 现场施工负责人",
       "contact": "刘宗辉 / 现场施工负责人",
       "note": "",
-      "priority": "高"
+      "priority": "高",
+      "openingDay": 15,
+      "scheduleLabel": "开荒第15天"
     }
   ],
   "adSlots": [
