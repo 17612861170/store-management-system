@@ -6667,6 +6667,7 @@
       const prevMonth = Math.max(1, currentMonth - 1);
       const nextMonth = Math.min(12, currentMonth + 1);
       const quickRanges = [
+        ["全年", firstDate, lastDate],
         ["上月", monthStartDate(year, prevMonth), monthEndDate(year, prevMonth)],
         ["本月", monthStartDate(year, currentMonth), monthEndDate(year, currentMonth)],
         ["下月", monthStartDate(year, nextMonth), monthEndDate(year, nextMonth)]
@@ -6695,7 +6696,7 @@
         : "核心指标";
       const storeMenuLabel = data.targetStoreIds.length ? `已选 ${scopedStores.length} 家门店` : "全部门店";
       const categoryMenuLabel = data.targetCategories.length ? categoryLabel : "指标筛选";
-      const dateMenuLabel = periodLabel === "全年" ? "自定义日期" : periodLabel;
+      const dateMenuLabel = periodLabel;
       const overviewBrandOptions = [`<option value="all" ${overviewBrand === "all" ? "selected" : ""}>全部品类</option>`, ...(source.brands || []).map(brand => `<option value="${brand.id}" ${overviewBrand === brand.id ? "selected" : ""}>${brand.name}</option>`)].join("");
       const brandOptions = [`<option value="all" ${data.activeBrand === "all" ? "selected" : ""}>全部品类</option>`, ...(source.brands || []).map(brand => `<option value="${brand.id}" ${data.activeBrand === brand.id ? "selected" : ""}>${brand.name}</option>`)].join("");
       const storeCheckboxes = multiCheckbox("store", "全部门店", brandScopedStores.map(store => [store.name, store.id]), data.targetStoreIds);
