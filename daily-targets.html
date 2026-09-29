@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>每日目标制定表</title>
+  <style>
+    :root{--orange:#f97316;--ink:#172033;--muted:#68758a;--line:#eadfd4;--soft:#fff7ed;--bg:#fffaf5;--card:#fff;--red:#dc2626;--green:#16803c}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    .app{display:grid;grid-template-columns:280px 1fr;min-height:100vh}
+    aside{background:linear-gradient(180deg,#ff7a1a,#f97316);color:#fff;padding:28px 22px;position:sticky;top:0;height:100vh}
+    .brand{font-size:24px;font-weight:900;margin-bottom:8px}.sub{opacity:.9;line-height:1.5;font-size:14px}
+    .side-card{margin-top:28px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:18px}
+    .side-card strong{display:block;font-size:34px;margin-top:8px}.side-card span{font-size:13px;opacity:.9}
+    main{padding:28px 32px 40px;overflow:hidden}.top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:18px}
+    h1{margin:0;font-size:30px;letter-spacing:0}.hint{margin:8px 0 0;color:var(--muted);font-weight:600}
+    .tools{display:grid;grid-template-columns:120px 150px 220px minmax(240px,1fr) 110px;gap:12px;margin:18px 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 30px rgba(154,93,38,.08)}
+    label{display:flex;flex-direction:column;gap:7px;font-size:12px;color:var(--muted);font-weight:800}
+    select,input{height:42px;border:1px solid #e7d8c8;border-radius:11px;background:#fff;color:var(--ink);padding:0 12px;font-size:14px;font-weight:800;min-width:0}
+    .summary{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:14px}
+    .metric{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 16px;min-height:96px}
+    .metric span{display:block;color:var(--muted);font-size:12px;font-weight:900;margin-bottom:8px}.metric strong{display:block;font-size:24px}.metric em{font-style:normal;color:var(--muted);font-size:12px;font-weight:800}
+    .metric.warn{background:#fff7ed;border-color:#fdba74}.metric.ok strong{color:var(--green)}.metric.bad strong{color:var(--red)}
+    .layout{display:grid;grid-template-columns:minmax(620px,1.05fr) minmax(420px,.95fr);gap:16px;align-items:start}
+    .panel{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 30px rgba(154,93,38,.08);overflow:hidden}
+    .panel-head{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:17px 20px;border-bottom:1px solid var(--line);background:#fffdf9}
+    .panel-head h2{margin:0;font-size:20px}.pill{display:inline-flex;align-items:center;border-radius:999px;background:var(--soft);color:#9a3412;font-weight:900;padding:7px 12px;font-size:12px}
+    .calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid #edf0f3;border-left:1px solid #edf0f3;margin:16px}
+    .dow,.day{border-right:1px solid #edf0f3;border-bottom:1px solid #edf0f3;min-height:92px;padding:10px;background:#fff}
+    .dow{min-height:auto;text-align:center;background:#fff7ed;color:#8a6a55;font-weight:900}.day.empty{background:#fffdf9}
+    .day-num{font-size:22px;font-weight:950}.day.weekend .day-num{color:#dc2626}.badge{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;border-radius:50%;background:#ffd90a;font-weight:950;margin-top:7px}
+    .amount{color:#92310a;font-weight:950;margin-top:5px;font-size:15px}.coeff{color:#7c8798;font-size:11px;font-weight:800;margin-top:2px}
+    table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:11px 12px;border-bottom:1px solid #f0e5dc;text-align:left}th{background:#fff7ed;color:#7c4a1d;font-size:12px}td.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:850}
+    .table-wrap{max-height:610px;overflow:auto}.notes{margin-top:16px;color:var(--muted);font-size:13px;line-height:1.7}.hidden{display:none}
+    @media(max-width:1100px){.app{grid-template-columns:1fr}aside{position:relative;height:auto}.tools{grid-template-columns:1fr 1fr}.summary{grid-template-columns:1fr 1fr}.layout{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">每日目标制定表</div>
+      <div class="sub">按飞书最新版目标表拆到每天。优先保证每月每日合计与源表月目标一致。</div>
+      <div class="side-card"><span>当前可选门店</span><strong id="storeCount">-</strong></div>
+      <div class="side-card"><span>数据源</span><strong style="font-size:18px">2026/2027 最新目标</strong></div>
+    </aside>
+    <main>
+      <div class="top">
+        <div>
+          <h1>下属制定每日目标用表</h1>
+          <p class="hint">选择年份、品类、门店和月份后，直接看每天应该定多少。</p>
+        </div>
+        <span class="pill" id="updatedAt">加载中</span>
+      </div>
+      <div class="tools">
+        <label>年份<select id="year"></select></label>
+        <label>品类<select id="brand"></select></label>
+        <label>门店类型<select id="cityType"></select></label>
+        <label>门店搜索/选择<input id="search" placeholder="输入门店名，例如 商丘吾悦" /><select id="store"></select></label>
+        <label>月份<select id="month"></select></label>
+      </div>
+      <div class="summary">
+        <div class="metric"><span>当月目标</span><strong id="monthTarget">-</strong><em>飞书源表</em></div>
+        <div class="metric"><span>Z 值</span><strong id="zValue">-</strong><em>源表对应月</em></div>
+        <div class="metric"><span>有效月倍数</span><strong id="effCoeff">-</strong><em>月目标 ÷ Z值</em></div>
+        <div class="metric warn"><span>计算方式</span><strong id="method">-</strong><em id="methodNote">-</em></div>
+        <div class="metric" id="checkCard"><span>月度校验</span><strong id="checkText">-</strong><em id="checkSub">每日合计 - 月目标</em></div>
+      </div>
+      <div class="layout">
+        <section class="panel">
+          <div class="panel-head"><h2 id="calendarTitle">每日系数</h2><span class="pill" id="sourceSheet">-</span></div>
+          <div class="calendar" id="calendar"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head"><h2>明细表</h2><span class="pill" id="rowCount">-</span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>日期</th><th>星期</th><th>日型</th><th>倍数</th><th style="text-align:right">每日目标</th></tr></thead>
+              <tbody id="rows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+      <p class="notes" id="notes"></p>
+    </main>
+  </div>
+  <script>
+    const fmt = n => Number(n||0).toLocaleString("zh-CN",{maximumFractionDigits:2});
+    const money = n => fmt(n);
+    const state = {data:null, records:[], selected:null};
+    const el = id => document.getElementById(id);
+    const months = Array.from({length:12},(_,i)=>String(i+1).padStart(2,"0"));
+    function uniq(arr){return [...new Set(arr.filter(Boolean))];}
+    function option(select, value, label=value){const o=document.createElement("option");o.value=value;o.textContent=label;select.appendChild(o);}
+    function fillFilters(){
+      const prevYear=el("year").value, prevBrand=el("brand").value, prevType=el("cityType").value;
+      el("year").innerHTML=""; uniq(state.records.map(r=>r.year)).sort().forEach(v=>option(el("year"),v));
+      if([...el("year").options].some(o=>o.value===prevYear)) el("year").value=prevYear;
+      el("brand").innerHTML=""; uniq(state.records.filter(r=>String(r.year)===el("year").value).map(r=>r.brandName)).forEach(v=>option(el("brand"),v));
+      if([...el("brand").options].some(o=>o.value===prevBrand)) el("brand").value=prevBrand;
+      el("cityType").innerHTML=""; option(el("cityType"),"全部","全部门店类型"); uniq(state.records.filter(filterBase).map(r=>r.cityType||r.storeType)).forEach(v=>option(el("cityType"),v));
+      if([...el("cityType").options].some(o=>o.value===prevType)) el("cityType").value=prevType;
+      el("month").innerHTML=""; months.forEach(m=>option(el("month"),m,`${Number(m)}月`));
+      fillStores();
+    }
+    function filterBase(r){
+      return String(r.year)===el("year").value && r.brandName===el("brand").value;
+    }
+    function currentRecords(){
+      const q=el("search").value.trim();
+      const type=el("cityType").value;
+      return state.records.filter(r=>filterBase(r))
+        .filter(r=>type==="全部" || (r.cityType||r.storeType)===type)
+        .filter(r=>!q || r.storeName.includes(q))
+        .sort((a,b)=>a.storeName.localeCompare(b.storeName,"zh-CN"));
+    }
+    function fillStores(){
+      const list=currentRecords();
+      const prev=el("store").value;
+      el("store").innerHTML="";
+      list.forEach(r=>option(el("store"),r.id,r.storeName));
+      if(list.some(r=>r.id===prev)) el("store").value=prev;
+      state.selected=list.find(r=>r.id===el("store").value)||list[0];
+      if(state.selected) el("store").value=state.selected.id;
+      if(state.selected){
+        const activeMonths=months.filter(m=>state.selected.monthly[m] && state.selected.monthly[m].targetRevenue>0);
+        if(activeMonths.length && !activeMonths.includes(el("month").value)) el("month").value=activeMonths[0];
+      }
+      render();
+    }
+    function render(){
+      const rec=state.records.find(r=>r.id===el("store").value) || state.selected;
+      state.selected=rec;
+      if(!rec) return;
+      const month=el("month").value;
+      const m=rec.monthly[month] || {days:[], targetRevenue:0,zValue:0,effectiveCoeff:0,calendarCoeff:0,method:"无目标",diff:0,dailyTotal:0};
+      el("monthTarget").textContent=money(m.targetRevenue);
+      el("zValue").textContent=money(m.zValue);
+      el("effCoeff").textContent=fmt(m.effectiveCoeff);
+      el("method").textContent=m.method;
+      el("methodNote").textContent=m.startDay ? `从 ${m.startDay} 号开始有目标` : `日历系数 ${fmt(m.calendarCoeff)}`;
+      el("calendarTitle").textContent=`${rec.storeName} · ${rec.year}年${Number(month)}月`;
+      el("sourceSheet").textContent=rec.sourceSheet;
+      el("rowCount").textContent=`${m.days.length} 天`;
+      el("checkText").textContent=Math.abs(m.diff||0)<0.02 ? "一致" : money(m.diff);
+      el("checkCard").className=`metric ${Math.abs(m.diff||0)<0.02?"ok":"bad"}`;
+      el("checkSub").textContent=`每日合计 ${money(m.dailyTotal)}，差额 ${money(m.diff)}`;
+      renderCalendar(rec.year, Number(month), m.days);
+      renderRows(m.days);
+      const special = /安阳吾悦|商丘吾悦|武昌/.test(rec.storeName);
+      el("notes").textContent = special
+        ? "重点门店已按源表月目标和 Z 值校验。开业月或月目标与日历系数不一致时，系统按源表月目标归一，确保每日合计等于当月目标。"
+        : "2027 源表只提供月系数和月目标，页面按现有日型规则生成日历权重，并按源表月目标归一。";
+    }
+    function renderCalendar(year, month, days){
+      const box=el("calendar"); box.innerHTML="";
+      "一二三四五六日".split("").forEach(d=>{const node=document.createElement("div");node.className="dow";node.textContent=d;box.appendChild(node);});
+      const first=new Date(year,month-1,1).getDay() || 7;
+      for(let i=1;i<first;i++){const node=document.createElement("div");node.className="day empty";box.appendChild(node);}
+      days.forEach(d=>{
+        const node=document.createElement("div"); node.className=`day ${["六","日"].includes(d.weekday)?"weekend":""}`;
+        node.innerHTML=`<div class="day-num">${d.day}</div><div class="badge">${d.label}</div><div class="amount">${money(d.target)}</div><div class="coeff">倍数 ${fmt(d.appliedCoeff)}</div>`;
+        box.appendChild(node);
+      });
+    }
+    function renderRows(days){
+      el("rows").innerHTML=days.map(d=>`<tr><td>${d.date}</td><td>周${d.weekday}</td><td>${d.label}</td><td>${fmt(d.appliedCoeff)}</td><td class="num">${money(d.target)}</td></tr>`).join("");
+    }
+    function wire(){
+      ["year","brand","cityType"].forEach(id=>el(id).addEventListener("change",fillFilters));
+      ["store","month"].forEach(id=>el(id).addEventListener("change",render));
+      el("search").addEventListener("input",fillStores);
+    }
+    fetch("data/daily_target_planner.json?v=20260929")
+      .then(r=>r.json())
+      .then(data=>{
+        state.data=data; state.records=data.records;
+        el("updatedAt").textContent=`更新：${data.generatedAt}`;
+        el("storeCount").textContent=state.records.length;
+        months.forEach(m=>option(el("month"),m,`${Number(m)}月`));
+        fillFilters();
+        const preferred=state.records.find(r=>/商丘吾悦/.test(r.storeName)) || state.records[0];
+        if(preferred){el("year").value=preferred.year; el("brand").value=preferred.brandName; el("search").value=preferred.storeName; fillFilters();}
+        wire();
+      });
+  </script>
+</body>
+</html>
